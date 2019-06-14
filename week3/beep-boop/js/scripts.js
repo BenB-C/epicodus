@@ -1,5 +1,7 @@
 // -- User Interface -----------------------------------------------------------
 $(document).ready(function() {
+  document.getElementById("numberInput").focus();
+
   $("#form").submit(function( event ) {
     event.preventDefault();
 
@@ -12,8 +14,9 @@ $(document).ready(function() {
       });
       $("#output").show();
       $("#form")[0].reset();
+      document.getElementById("output").scrollIntoView({behavior: "smooth", block: "end"});
     } else {
-      // TODO
+      console.log("invalid input number");
     }
   });
 });
