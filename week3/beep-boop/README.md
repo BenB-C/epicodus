@@ -1,4 +1,5 @@
 # _Beep Boop_
+[https://benjbc.github.io/epicodus/week3/beep-boop/](https://benjbc.github.io/epicodus/week3/beep-boop/)
 
 #### _A web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number, but with certain numbers replaced with special text, 2019.06.14_
 
@@ -46,6 +47,9 @@ _If you find a bug, run into any issues, or have questions, ideas or concerns pl
 
 * Bootstrap
 * JavaScript
+  * document.getElementById()
+  * element.focus()
+  * element.scrollIntoView()
 * jQuery
 
 ### License
