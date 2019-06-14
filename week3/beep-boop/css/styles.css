@@ -3,6 +3,11 @@ body {
   text-align: center;
 }
 
+#top-image {
+  padding: 15px;
+  width: 75%;
+}
+
 #output {
   padding-top: 10px;
   text-align: left;
