@@ -10,7 +10,7 @@ $(document).ready(function() {
       $("#outputList").empty();
       $("#beepBoopNumber").text(inputNumber);
       beepBoopList(inputNumber).forEach(function(item) {
-        $("#outputList").append(newListItem(item));
+        $("#outputList").append(item + "<br>");
       });
       $("#output").show();
       $("#form")[0].reset();
@@ -20,10 +20,6 @@ $(document).ready(function() {
     }
   });
 });
-
-function newListItem(text) {
-  return "<li>" + text + "</li>";
-}
 
 // -- Business Logic -----------------------------------------------------------
 
