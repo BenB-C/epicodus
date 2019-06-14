@@ -1,0 +1,31 @@
+h1 {
+  color: purple;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+}
+
+li {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p2 {
+  font-size: 16px;
+}
+
+img {
+  width: 300px;
+
+}
+
+.left{
+float: left;
+padding: 10px;
+}
+.right{
+float: right;
+}

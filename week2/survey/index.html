@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <!-- Birthdate -->
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+        <!-- Hair -->
+        <label for="eyes">Hair color</label>
+        <select class="form-control" id="eyes">
+          <option value="1">Black</option>
+          <option value="2">Brown</option>
+          <option value="3">Blonde</option>
+          <option value="4">Red</option>
+        </select>
+        <!-- Ice cream -->
+        <fieldset>
+          <legend>Favorite ice cream flavor</legend>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+        </fieldset>
+        <!-- Favorite color -->
+        <div class="form-group">
+          <label for="color">Favorite color</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

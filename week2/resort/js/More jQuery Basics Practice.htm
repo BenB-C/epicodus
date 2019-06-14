@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery-6423e9a5-4a0d-4b33-a4d3-1a2873595ac8/more-jquery-basics-practice -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>More jQuery Basics Practice</title>
+
+<script type="text/javascript" src="./More jQuery Basics Practice_files/48356a79ca"></script><script src="./More jQuery Basics Practice_files/nr-1123.min.js"></script><script type="text/javascript" async="" src="./More jQuery Basics Practice_files/loader.js"></script><script type="text/javascript" async="" src="./More jQuery Basics Practice_files/aa1422f9-9ca9-4942-8b1c-830007020e3d.js"></script><script async="" src="./More jQuery Basics Practice_files/analytics.js"></script><script src="./More jQuery Basics Practice_files/Gy5a6AgvmvRZuSjIcKRIBTwX4nQ.js"></script><script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"48356a79ca","applicationID":"1386295","transactionName":"IAwPEhQNWVxUFx5VUBAQDggVTUZYXhI=","queueTime":18,"applicationTime":77,"agent":""}</script>
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="b2q5zr6LZ3fS/9JHz9TkiHcP/wbWnXkTERUOiv2Vw+pYhOawV4mtHGrgrcd3pBUExYLjKLfW2a9ofGpdH985Vg==">
+<link rel="stylesheet" media="all" href="./More jQuery Basics Practice_files/application-7dfb12660ffb3f38a72d2472372e7ab5116e8df3300ee5b7c3091bb4729264f6.css">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.learnhowtoprogram.com/assets/favicon-d0e8ff63da72a0c5ea15ebc045a7f9d2979d211a12e596a5ed5f5b1534e78919.png">
+<link href="./More jQuery Basics Practice_files/css" rel="stylesheet" type="text/css">
+<script src="./More jQuery Basics Practice_files/application-87ffa99e14cef3d1aa4b9b1b85f7e96ddea38bf6bcbb2c7edbca0d6ae2247439.js"></script>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<span class="label label-info">Exercise</span>
+<span class="label label-primary">Tuesday</span>
+<ul class="breadcrumb">
+<li><a href="https://www.learnhowtoprogram.com/introduction-to-programming">Introduction to Programming</a></li>
+<li><a href="https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery-6423e9a5-4a0d-4b33-a4d3-1a2873595ac8">JavaScript and jQuery</a></li>
+<li class="active">More jQuery Basics Practice</li>
+</ul>
+<ul class="nav nav-tabs">
+<li class="active"><a href="https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery-6423e9a5-4a0d-4b33-a4d3-1a2873595ac8/more-jquery-basics-practice#text" data-toggle="tab">Text</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active in" id="text">
+<p><strong>Goal:</strong> Practice jQuery basics by both creating a website that hides/shows various elements, and contains definitions of common jQuery and JavaScript terms.</p>
+<h2>Warm Up</h2>
+<p></p><hr><p></p>
+<ul>
+<li>What is a function? How do we create one? How do we call one?</li>
+<li>What does it mean when we say "Business Logic" when referring to JavaScript?</li>
+<li>What is the difference between JavaScript and jQuery?</li>
+</ul>
+<h2>Code</h2>
+<p></p><hr><p></p>
+<h3>Flashcard Site</h3>
+<p>Make a webpage that is a flashcard site for learning JS &amp; jQuery. On your site, a user should be able to click on a term or concept to see the definition appear. When they click on the definition, the original term should appear again. Here is a list of (some) terms and concepts that you have learned so far:</p>
+<ul>
+<li>JavaScript (JS)</li>
+<li>Operators</li>
+<li>Variables</li>
+<li>Variable naming conventions</li>
+<li>Functions</li>
+<li>Methods</li>
+<li>Arguments</li>
+<li>Parameters</li>
+<li>Return</li>
+<li>Chaining methods</li>
+<li>Strings</li>
+<li>Booleans</li>
+<li>Undefined</li>
+<li>NaN</li>
+<li>Escape</li>
+<li>Alert</li>
+<li>Comments</li>
+<li>jQuery</li>
+<li>Attributes</li>
+</ul>
+<p>Remember to start this project in its own directory, make it a Git repository and make frequent commits as you are building your site. Use Bootstrap as well.</p>
+<p>Feel free to add to this site later to help you study and remember key ideas of JavaScript and jQuery.</p>
+<h2>Peer Code Review</h2>
+<p></p><hr><p></p>
+<ul>
+<li>Is jQuery used to hide and show definitions when flashcards are clicked on?</li>
+<li>Is code indented properly throughout?</li>
+<li>Are Git commit messages descriptive, and in the correct tense?</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://www.learnhowtoprogram.com/tracks">Tracks</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li> </li><li><a href="https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery-6423e9a5-4a0d-4b33-a4d3-1a2873595ac8/practice-add-remove-classes">Previous</a></li>
+<li><a href="https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery-6423e9a5-4a0d-4b33-a4d3-1a2873595ac8/dom-manipulation-and-traversal">Next</a></li>
+
+</ul>
+<ul class="nav navbar-nav pull-right">
+<li id="navbar-search">
+<form class="navbar-form navbar-left" action="https://www.learnhowtoprogram.com/lessons" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+<div class="input-group">
+<input type="text" name="search" id="search" placeholder="Search lessons" class="form-control">
+<div class="input-group-btn">
+<button name="button" type="submit" class="btn btn-info" id="lesson-search">
+<span class="glyphicon glyphicon-search"></span>
+</button> </div>
+</div>
+</form> </li>
+</ul>
+</div>
+</div>
+</nav>
+<footer class="footer">
+<div class="container">
+<a href="http://www.epicodus.com/" target="_blank"><img id="epicodus-logo" src="./More jQuery Basics Practice_files/saved_resource" title="Learn to program at Epicodus" alt="Learn to program at Epicodus"></a>
+<p>© 2019 <a href="http://www.epicodus.com/">Epicodus</a>, Inc.</p>
+</div>
+</footer>
+
+<script type="text/javascript">
+      var _usersnapconfig = { loadHandler: function() {UserSnap.on('beforeSend', function(obj) { obj.label = "Introduction to Programming"; }) } };
+      (function() { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = '//api.usersnap.com/load/aa1422f9-9ca9-4942-8b1c-830007020e3d.js';
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+    </script>
+
+
+
+<!--uspssb--><iframe src="./More jQuery Basics Practice_files/saved_resource.html" name="us-entrypoint-setup" style="display: none; height: 0px; width: 0px; z-index: 2147483647;"></iframe><!--uspsse--><!--uspssb--><iframe src="./More jQuery Basics Practice_files/saved_resource(1).html" name="us-entrypoint-button" class="us–style-manager-1buttonIframe1559685320287 us–style-manager-2sizedIframe1559685320287" id="us–style-manager-1buttonIframe1559685320287" style="display: none; height: 0px; width: 0px; z-index: 2147483647;"></iframe><!--uspsse--><style type="text/css"></style><style type="text/css"></style></body></html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Counting</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Counting Numbers</h1>
+
+    <form class="counting" action="index.html" method="post">
+
+      <div class="form-group">
+        <label for="firstInput">Count to</label>
+        <input id="firstInput" type="number" class="form-control" >
+      </div>
+
+      <div class="form-group">
+        <label for="secondInput">Count by</label>
+        <input id="secondInput" type="number" class="form-control" >
+      </div>
+
+      <button type="submit" name="button">Submit</button>
+
+    </form>
+
+    <div class="output">
+      <p id="outputNumbers"></p>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Programming Language Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <!-- User Info Form -->
+    <div class="pageHeading">
+      <h1 class="text-info">Programming Language Suggester</h1>
+      <img src="img/matrix_digital_rain.gif" alt="Animated gif of digital rain from The Matrix">
+    </div>
+    <form id="userInfo">
+      <!-- Name -->
+      <div class="form-group row">
+        <label for="nameInput" class="col-sm-2 col-form-label">Name:</label>
+        <div id="nameInputCol" class="col-sm-10">
+          <input id="nameInput" class="form-control" type="text" placeholder="Enter your name">
+        </div>
+      </div>
+      <div class="row">
+        <!-- Question 1 -->
+        <div class="col-md-3">
+          <h2>I like... </h2>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question1" value="1" checked></td>
+              <td>Pi&ntildea Coladas, and getting caught in the rain</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question1" value="2"></td>
+              <td>to eat, eat, eat apples and bananas</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question1" value="3"></td>
+              <td>it like that</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question1" value="4"></td>
+              <td>big butts and I can not lie</td>
+            </tr></table></label>
+          </div>
+        </div>
+        <!-- Question 2 -->
+        <div class="col-md-3">
+          <h2>I love...</h2>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question2" value="1" checked></td>
+              <td>you baby</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question2" value="2"></td>
+              <td>my dog</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question2" value="3"></td>
+              <td>to love you baby</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question2" value="4"></td>
+              <td>my shirt</td>
+            </tr></table></label>
+          </div>
+        </div>
+        <!-- Question 3 -->
+        <div class="col-md-3">
+          <h2>I would...</h2>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question3" value="1" checked></td>
+              <td>like to see it</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question3" value="2"></td>
+              <td>walk five hundred miles and I would walk five hundred more</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question3" value="3"></td>
+              <td>do anything for love</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question3" value="4"></td>
+              <td>die for you</td>
+            </tr></table></label>
+          </div>
+        </div>
+        <!-- Question 4 -->
+        <div class="col-md-3">
+          <h2>I would never...</h2>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question4" value="1" checked></td>
+              <td>boca your child</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question4" value="2"></td>
+              <td>hurt you</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question4" value="3"></td>
+              <td>do that</td>
+            </tr></table></label>
+          </div>
+          <div class="radio">
+            <label><table><tr>
+              <td><input type="radio" name="question4" value="4"></td>
+              <td>gif</td>
+            </tr></table></label>
+          </div>
+        </div>
+      </div>
+      <!-- Submit Button -->
+      <div id="submitBtn">
+        <button type="submit" class="btn btn-info">Suggest a Language</button>
+      </div>
+    </form>
+    <div id="output">
+      <p> Hi <span id="nameOutput"></span>, your suggested programming language is:
+        <p id="suggestedLanguage"></p>
+      </div>
+    </div>
+  </body>
+  </html>
+  <a href="#"></a>

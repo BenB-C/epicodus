@@ -1,0 +1,15 @@
+.info {
+  display: none;
+}
+
+img {
+  width: 90%;
+}
+
+.highlight {
+  /* background-color: #ffff00; */
+
+  border-color: yellow;
+  border-width: 5px;
+  border-style: solid;
+}

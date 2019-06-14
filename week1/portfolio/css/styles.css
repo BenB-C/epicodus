@@ -1,0 +1,56 @@
+/* Styles for profile picture */
+.profile-pic {
+  padding: 10px;
+  text-align: center;
+  background-color: #c7e4ed;
+  font-family: "Courier New";
+}
+.profile-pic img {
+  width: 256px;
+}
+
+/* Styles for projects */
+.project {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+#projects-heading, .background h2{
+  text-align: center;
+  color: #4286f4;
+  font-family: "Courier New";
+}
+
+/* Styles for background sections */
+.education, .experience, .about-me, .interests {
+  border-style: dashed;
+  border-color: #4286f4;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.education .degree {
+  font-style: italic;
+}
+
+.experience strong {
+  font-style: normal;
+  color: #4286f4;
+}
+
+.job td {
+  padding-left: 10px;
+}
+
+li {
+  margin-left: -10px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 1200px) {
+  .education, .experience, .about-me, .interests {
+    float: left;
+    width: 25%;
+  }
+}

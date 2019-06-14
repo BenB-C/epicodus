@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-size: 30px;
+  font-style: bold;
+}
+
+li {
+  font-size: 22px;
+}

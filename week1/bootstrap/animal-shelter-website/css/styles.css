@@ -1,0 +1,65 @@
+.profile {
+  float: left;
+  width: 33.333%;
+  margin: auto;
+  /* border: 10px;
+  border-style: inset; */
+  /* padding: 10px; */
+  background-color: blue;
+}
+
+/* .profile-picture {
+  width: 50%;
+} */
+
+.profile img {
+  width: 50%;
+  float: left;
+}
+
+.profile p {
+  /* float: left; */
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.profile h2 {
+  color: gray;
+  font-size: 28px;
+}
+
+/* This would overide all the previous h2 styles */
+/* h2 {
+  text-align: right;
+} */
+
+/* 1 */
+/* 2 */
+/* 3 */
+/* 4 */
+
+@media screen and (min-width: 768px) {
+  .profile {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}

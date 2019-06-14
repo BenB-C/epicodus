@@ -1,0 +1,40 @@
+#output {
+  display: none;
+}
+
+#submitBtn, #output {
+  text-align: center;
+  padding: 10px;
+}
+
+.red-border {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+
+#suggestedLanguage {
+  font-size: 30pt;
+}
+
+.pageHeading {
+  text-align: center;
+  padding: 15px;
+}
+
+.pageHeading img {
+  width: 50%;
+}
+
+
+tr {
+  vertical-align: text-top;
+}
+
+td {
+  padding: 0;
+}
+
+td:first-child {
+  padding-right: 15px;
+}

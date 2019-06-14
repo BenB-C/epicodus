@@ -1,0 +1,9 @@
+body {
+  margin: 10px;
+}
+
+#output {
+  display: none;
+  margin-top: 10px;
+  font-family: serif; 
+}
