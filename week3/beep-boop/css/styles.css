@@ -26,3 +26,7 @@ body {
 input {
   width: 75%;
 }
+
+#beepBoopNumber {
+  color: blue;
+}
