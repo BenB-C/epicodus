@@ -10,8 +10,17 @@ body {
 
 #output {
   padding-top: 10px;
-  text-align: left;
   display: none;
+}
+
+#output ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#output li {
+  text-align: left
 }
 
 input {
