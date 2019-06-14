@@ -1,8 +1,10 @@
 body {
   padding: 10px;
+  text-align: center;
 }
 
 #output {
   padding-top: 10px;
+  text-align: left;
   display: none;
 }
