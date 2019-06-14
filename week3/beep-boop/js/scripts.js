@@ -34,6 +34,11 @@ function newListItem(text) {
 // * Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 function beepBoopList(endNumber) {
   var list = [];
+  var maxNumber = 10000;
+  if (endNumber > maxNumber) {
+    endNumber = maxNumber;
+    var endNumberTooBig = true;
+  }
   for (var i = 0; i <= endNumber; i++) {
     var numberStr = i.toString();
     if (numberStr.includes("3")){
@@ -45,6 +50,9 @@ function beepBoopList(endNumber) {
     } else {
       list[i] = i;
     }
+  }
+  if (endNumberTooBig) {
+    list.push("Phew! I'm tired!! How about you count the rest for yourself?")
   }
   return list;
 }
