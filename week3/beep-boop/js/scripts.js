@@ -6,8 +6,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     var inputNumber = parseInt($("#numberInput").val());
-    $("#outputList").empty();
     if (inputNumber >= 0) {
+      $("#outputList").empty();
       $("#beepBoopNumber").text(inputNumber);
       beepBoopList(inputNumber).forEach(function(item) {
         $("#outputList").append(newListItem(item));
